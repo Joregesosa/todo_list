@@ -1,5 +1,5 @@
 import React from "react";
-import {useLocalStorage} from './useLocalStorage';
+import { useLocalStorage } from './useLocalStorage';
 
 function useTodo() {
     const [todoS, saveTodos] = useLocalStorage('TodoApp_V1', []);
@@ -20,9 +20,9 @@ function useTodo() {
         saveTodos(newTodos);
 
     };
-     // completar todoS
-     const newTodo = (key) => {
-        
+    // completar todoS
+    const newTodo = (key) => {
+
         const newTodos = [...todoS];
         newTodos.push({
             completed: false,
