@@ -8,7 +8,9 @@ function Modal({ children }) {
     return ReactDOM.createPortal(
 
         <div className="modalContainer">
+
             {children}
+
         </div>,
 
         document.getElementById('modal')        

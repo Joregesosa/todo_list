@@ -9,8 +9,8 @@ form {
     height: 60vh;
     max-height: 520px;
     min-height: 420px;
-    border: solid 1px rgb(224, 224, 224);
-    background-color: #ffffff9c;
+    border: solid 1px #e0e0e0;
+    background-color: #ffffffd5;
     border-radius: 5px;
 }
 
